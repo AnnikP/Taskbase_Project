@@ -87,8 +87,24 @@
       letter-spacing: 0.12em;
       text-transform: uppercase;
       margin-top: 4px;
+      margin-bottom: 4px;
     }
- 
+    
+    .login-btn {
+      margin-top: 4px;
+      padding: 5px 15px;
+      background-color:lightcoral;
+      color:white;
+      border:none;
+      border-radius: 2px;
+      font-size: 10px;
+      cursor: pointer;
+    }
+
+    .login-btn:hover {
+      background-color:#e06666;
+    }
+
     .sidebar-lists {
       flex: 1;
       overflow-y: auto;

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard – Taskbase</title>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/dashboard.css">
+        <script src="/js/dashboard.js" defer></script>
+    </head>
+
+    <body>
+        <div class="app" id="app">
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+              <div class="sidebar-header">
+                <div class="app-title">Taskbase</div>
+                <div class="app-subtitle">Task Manager</div>
+                <a class="account-btn">Account</a>
+                <a class="logout-btn">Logout</a>
+              </div>
+           
+              <div class="sidebar-lists" id="sidebarLists"></div>
+           
+              <div class="new-list-area">
+                <div class="new-list-form">
+                  <input class="new-list-input" id="newListInput" type="text" placeholder="New list name…" maxlength="48"/>
+                  <button class="new-list-btn" id="newListBtn" title="Create list">+</button>
+                </div>
+              </div>
+            </aside>
+
+            <!-- Main -->
+            <div class="main">
+              <div class="topbar">
+                <div class="search-wrap">
+                  <span class="search-icon">⌕</span>
+                  <input class="search-input" id="searchInput" type="text" placeholder="Search tasks across all lists…"/>
+                </div>
+                <button class="dark-toggle" id="darkToggle">
+                  <span class="toggle-dot"></span>
+                  <span id="darkLabel">Dark</span>
+                </button>
+              </div>
+           
+              <div class="content" id="mainContent"></div>
+            </div>
+          </div>
+
+    </body>
+</html>

@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
 *env 
+node_modules/
 
 # Compiled Object files
 *.slo

@@ -1,0 +1,17 @@
+Homework 7 Reflection - Annik Pol
+
+For the project I took on the frontend role, while my partner worked on the backend. I had also helped out in certain features and bugs that we encountered in the backend. 
+Such as the database not connecting, issues with authentication and certain routing errors. In the frontend portion I handled the HTML/CSS/JS files that represented the clientside code. 
+Where the index.html served as the root layer in which users are first sent too, giving example data and how the task manager application worked. 
+To which if a user wanted to save their data they would have to create an account in the login page and once completed sent to their own dashboard. 
+
+The tools that we used while working on this project included the code editor vscode, AI agents such as Claude Sonnet and ChatGPT. On the otherhand the collaboration tools we used was github
+and discord. Github was essential in keeping up with progress and work on individual segments, to which we can add and commit our code separately and test them to see if they worked. Since we are using
+node.js, express, and mongodb, routing must be changed to match the necessary syntax. Where each route must be specific, unless it would cause unnecessary errors because of express.
+
+The challenges I faced working on this assignment was making sure that the clientside javascript matched up with the serverside node.js. So that when a user inputs data it correctly connects to the server-side code
+and updates the database and is shown correspondently to the client-side code. There would also be minor errors where buttons to the login page would send us to the right page but the styling would be missing, which turned out to be a
+routing error in the code. There was also the problem of using the local mongodb database, where it wouldn't connect. So we had to update the server.js to have the correct routes and sessions. Since we added a login
+and register portion to the project, to add more professionalism and cleaner interface. That addition caused problems of making sure tokens/sessions matched up and each individual register user keeps their data when logged out.
+Otherwise most of the challenged came from making sure the mongodb worked correctly, routes were functioning, key functions worked, and npm install would not encounter errors. Most of the errors simply came by 
+overcomplicating the project with the addition of userId and login portions, which was my idea as it is similar to other projects I have worked on. 

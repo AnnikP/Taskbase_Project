@@ -1,0 +1,12 @@
+Homework 7 Reflection — Kayla
+
+For this project, I was responsible for all of the back end work while my partner handled the front-end. 
+My portion included setting up the Node.js and Express server, designing the Mongoose schemas for lists and text entries, connecting to MongoDB, and building the REST API routes that the client uses to create, read, update, and delete data. 
+We organized the work by layer rather than by feature, which let us each work independently on the part we were strongest in without blocking each other.
+
+The main tools I used were Node.js and Express for the server, Mongoose for the database models, a local instance of MongoDB for storage, and VS Code as my editor. 
+We used Claude as our main AI agent when creating the project. I tested each API route manually by hitting the endpoints through the app and by watching the database update in real time. 
+My partner and I shared code through GitHub and communicated over text on Discord throughout the process.
+
+The biggest challenge was making sure the front-end and back-end actually spoke the same language. The original client-side code stored everything in localStorage, so once the API was working we had to change the client to use fetch calls and line up the field names with the schema. 
+Once those matched up, the rest of the capabilities were straightforward to complete.
